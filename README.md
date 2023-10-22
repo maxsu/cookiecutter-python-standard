@@ -47,37 +47,54 @@
 ## Usage
 
 ```console
-cookiecutter gh:cjolowicz/cookiecutter-hypermodern-python --checkout=2022.6.3
+cookiecutter gh:maxsu/cookiecutter-python-standard
 ```
 
 ## Features
 
 <!-- features-begin -->
 
-- Packaging and dependency management with [Poetry]
-- Test automation with [Nox]
-- Linting with [pre-commit] and [Flake8]
-- Continuous integration with [GitHub Actions]
-- Documentation with [Sphinx], [MyST], and [Read the Docs] using the [furo] theme
-- Automated uploads to [PyPI] and [TestPyPI]
-- Automated release notes with [Release Drafter]
+# Package Management
+- Packaging with [Pip]
 - Automated dependency updates with [Dependabot]
-- Code formatting with [Black] and [Prettier]
-- Import sorting with [isort]
+
+# CI/CD
+- Continuous integration with [GitHub Actions]
+- Automated release notes with [Release Drafter]
+- Automated uploads to [PyPI]
+
+# Documentation
+- Documentation with [Read the Docs]
+- Generate API documentation with [autodoc] and [napoleon]
+- Generate command-line reference with [sphinx-click]
+
+# Testing 
 - Testing with [pytest]
 - Code coverage with [Coverage.py]
 - Coverage reporting with [Codecov]
-- Command-line interface with [Click]
-- Static type-checking with [mypy]
-- Runtime type-checking with [Typeguard]
-- Automated Python syntax upgrades with [pyupgrade]
-- Security audit with [Bandit] and [Safety]
 - Check documentation examples with [xdoctest]
-- Generate API documentation with [autodoc] and [napoleon]
-- Generate command-line reference with [sphinx-click]
+- 
+# QA
+- Code formatting with [Black]
+- Import sorting with [isort]
+- Linting with [pre-commit] and [Flake8]
+- Automated Python syntax upgrades with [pyupgrade]
+
+# Project Tools
 - Manage project labels with [GitHub Labeler]
 
-The template supports Python 3.7, 3.8, 3.9, and 3.10.
+# Security
+- Security audit with [Bandit] and [Safety]
+
+
+# Typing
+- Static type-checking with [mypy]
+- Runtime type-checking with [Typeguard]
+
+# UI
+- Command-line interface with [Click]
+
+The template supports Python 3.8 - 3.12.
 
 [autodoc]: https://www.sphinx-doc.org/en/master/usage/extensions/autodoc.html
 [bandit]: https://github.com/PyCQA/bandit
@@ -87,17 +104,13 @@ The template supports Python 3.7, 3.8, 3.9, and 3.10.
 [coverage.py]: https://coverage.readthedocs.io/
 [dependabot]: https://github.com/dependabot/dependabot-core
 [flake8]: http://flake8.pycqa.org
-[furo]: https://pradyunsg.me/furo/
 [github actions]: https://github.com/features/actions
 [github labeler]: https://github.com/marketplace/actions/github-labeler
 [isort]: https://pycqa.github.io/isort/
 [mypy]: http://mypy-lang.org/
 [myst]: https://myst-parser.readthedocs.io/
 [napoleon]: https://www.sphinx-doc.org/en/master/usage/extensions/napoleon.html
-[nox]: https://nox.thea.codes/
-[poetry]: https://python-poetry.org/
 [pre-commit]: https://pre-commit.com/
-[prettier]: https://prettier.io/
 [pypi]: https://pypi.org/
 [pytest]: https://docs.pytest.org/en/latest/
 [pyupgrade]: https://github.com/asottile/pyupgrade
