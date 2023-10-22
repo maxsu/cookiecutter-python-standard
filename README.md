@@ -37,8 +37,7 @@
 
 <p align="center"><img alt="logo" src="docs/_static/logo.png" width="50%" /></p>
 
-[Cookiecutter] template for a Python package based on the
-[Hypermodern Python] article series.
+[Cookiecutter] template for a Python package based on [pep 621](https://peps.python.org/pep-0621/), pyproject.toml, and some other python nice-to-haves. Derived directly from cookiecutter-hypermodern-python.
 
 ✨📚✨ [Read the full documentation][readthedocs page]
 
