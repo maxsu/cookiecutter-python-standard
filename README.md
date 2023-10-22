@@ -1,4 +1,4 @@
-# cookiecutter-hypermodern-python
+# cookiecutter-python-standard
 
 <!-- badges-begin -->
 
